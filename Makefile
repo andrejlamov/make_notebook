@@ -4,7 +4,7 @@ URL_BASE=https://pypi.python.org/packages/source/v/virtualenv
 
 .PHONY: run
 
-run: $(ENV)/bin/ipython
+run: $(ENV)/bin/python
 	$(ENV)/bin/ipython notebook
 
 $(ENV)/bin/python: requirements.txt
